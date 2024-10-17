@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pso4pids.iml" filepath="$PROJECT_DIR$/.idea/pso4pids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4arms.unitTest.iml" />
     </modules>
   </component>
 </project>
