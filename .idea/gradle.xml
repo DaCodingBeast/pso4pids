@@ -10,7 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/pso4arms" />
+            <option value="$PROJECT_DIR$/pso4pids" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
