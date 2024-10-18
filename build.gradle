@@ -1,16 +1,17 @@
 buildscript {
-    ext {
-        agp_version = '8.0.0'
-        kotlin_version = '1.8.0'
-    }
     repositories {
         google()
         mavenCentral()
     }
+    ext {
+        agp_version = '7.4.2' // Android Gradle Plugin version
+        kotlin_version = '2.0.0' // Kotlin version
+    }
+
     dependencies {
         classpath "com.android.tools.build:gradle:$agp_version"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Add this line
-        classpath 'org.jetbrains.dokka:dokka-gradle-plugin:1.8.10'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Kotlin Gradle plugin
+        classpath 'org.jetbrains.dokka:dokka-gradle-plugin:1.8.10' // Dokka plugin
     }
 }
 
@@ -22,7 +23,6 @@ allprojects {
 }
 
 subprojects {
-
     apply plugin: 'org.jetbrains.dokka'
 
     tasks.dokkaHtmlPartial.configure {
