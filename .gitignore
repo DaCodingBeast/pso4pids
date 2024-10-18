@@ -1,2 +1,2 @@
 # Ignore Dokka HTML output
-/build/dokka/html/
+/build/build/dokka/html/
