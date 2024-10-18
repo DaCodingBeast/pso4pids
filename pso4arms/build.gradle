@@ -51,7 +51,7 @@ publishing {
             groupId = 'com.pso4pids.library'
             artifactId = 'pidfAutomaticTuner'
             artifact file('build/outputs/aar/pso4arms-release.aar')
-            version = '1.0.1'
+            version = '1.0.5'
         }
     }
     repositories {
