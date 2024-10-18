@@ -1,2 +1,2 @@
-.gradle/
-build/
+# Ignore Dokka HTML output
+/build/dokka/html/
