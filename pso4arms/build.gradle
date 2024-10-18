@@ -32,6 +32,11 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    publishing {
+            singleVariant('release') {
+                withSourcesJar()
+            }
+        }
 }
 
 dependencies {
@@ -49,7 +54,10 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.pso4pids.library'
             artifactId = 'pso4arms'
-            version = '1.0.7'
+            version = '1.0.8'
+            afterEvaluate {
+                from components.release
+            }
         }
     }
     repositories {
