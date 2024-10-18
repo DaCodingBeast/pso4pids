@@ -49,8 +49,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.pso4pids.library'
             artifactId = 'pso4arms'
-            version = '1.0.6'
-            artifact file('build/outputs/aar/pso4arms-release.aar')
+            version = '1.0.7'
         }
     }
     repositories {
