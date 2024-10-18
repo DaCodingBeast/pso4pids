@@ -5,9 +5,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
-
 android {
-    namespace 'com.pso4pids.pso4arms'
+    namespace 'com.github.DaCodingBeast.pso4arms'
     compileSdk 34
 
 
@@ -47,7 +46,7 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.pso4pids.library'
+            groupId = 'com.github.DaCodingBeast'
             artifactId = 'pso4arms'
             version = '1.0.9'
         }
