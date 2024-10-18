@@ -49,7 +49,7 @@ publishing {
         debug(MavenPublication) {
             from components.findByName("release")
             groupId = 'com.pso4pids.library'
-            artifactId = 'pidfAutomaticTuner'
+            artifactId = 'pso4arms'
             artifact file('build/outputs/aar/pso4arms-release.aar')
             version = '1.0.5'
         }
