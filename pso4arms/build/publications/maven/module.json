@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pso4pids.library",
+    "module": "pso4arms",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pso4arms-1.0.8.aar",
+          "url": "pso4arms-1.0.8.aar",
+          "size": 83871,
+          "sha512": "9d23c1e6879d6db898b464a7bcff1862056b6f084996ae3cc7869626ec035ad886e3ed38a1a0bb944c4dd232a605523479f0b4705fa2fa516d831daf65a1bdbd",
+          "sha256": "bbc8f59baa9df2b540496999f63fd6888e2ed515784d106cf33bdac68ba50fc7",
+          "sha1": "2125972e6082791508915c8a32e3b4d48e249338",
+          "md5": "f0fdbf9af781b33c5fac102d2453a244"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pso4arms-1.0.8.aar",
+          "url": "pso4arms-1.0.8.aar",
+          "size": 83871,
+          "sha512": "9d23c1e6879d6db898b464a7bcff1862056b6f084996ae3cc7869626ec035ad886e3ed38a1a0bb944c4dd232a605523479f0b4705fa2fa516d831daf65a1bdbd",
+          "sha256": "bbc8f59baa9df2b540496999f63fd6888e2ed515784d106cf33bdac68ba50fc7",
+          "sha1": "2125972e6082791508915c8a32e3b4d48e249338",
+          "md5": "f0fdbf9af781b33c5fac102d2453a244"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pso4arms-1.0.8-sources.jar",
+          "url": "pso4arms-1.0.8-sources.jar",
+          "size": 14042,
+          "sha512": "6620694ad93beae67c632a3cee705cc8567b4bc483727be497cb035f85cb03662dc1b2ff0186d9714314700c088e45fb20d3b8e4d45c141d153cd31d50bad051",
+          "sha256": "6d706eb7eab3f3abc51b84bad7859c7ab7625cb013eb9aed81bcf9e0c987ad23",
+          "sha1": "68d202ede9776a03fd815d1b3a11eaac89f35ecc",
+          "md5": "c2775e910a956ff65742f3fc82e3b454"
+        }
+      ]
+    }
+  ]
+}

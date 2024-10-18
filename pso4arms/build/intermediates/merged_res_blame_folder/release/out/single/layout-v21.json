@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.pso4pids.pso4arms-merged_res-31:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.pso4pids.pso4arms-core-1.13.1-11:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.pso4pids.pso4arms-merged_res-31:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.pso4pids.pso4arms-core-1.13.1-11:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.pso4pids.pso4arms-merged_res-31:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.pso4pids.pso4arms-core-1.13.1-11:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.pso4pids.pso4arms-merged_res-31:/layout-v21/notification_action.xml",
+        "source": "com.pso4pids.pso4arms-core-1.13.1-11:/layout-v21/notification_action.xml"
+    }
+]

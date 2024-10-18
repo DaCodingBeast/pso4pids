@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.pso4pids.pso4arms-merged_res-31:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.pso4pids.pso4arms-appcompat-1.6.1-16:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.pso4pids.pso4arms-merged_res-31:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.pso4pids.pso4arms-appcompat-1.6.1-16:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    }
+]
