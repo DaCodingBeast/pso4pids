@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-30:/values-gu/values-gu.xml",
+            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-29:/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\8e4ce2be0c51bd80c5b9d78bcbc81f63\\transformed\\appcompat-1.6.1\\res\\values-gu\\values-gu.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\614837764ff1eaddb81bbdd40d14910e\\transformed\\core-1.13.1\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\c6fd7364d11c563cc2d509f6d23ee7ff\\transformed\\core-1.13.0\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

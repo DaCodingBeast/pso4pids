@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-30:/values-de/values-de.xml",
+            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-29:/values-de/values-de.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\c6fd7364d11c563cc2d509f6d23ee7ff\\transformed\\core-1.13.0\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,455,563,668,786",
+                        "endColumns": "97,101,99,99,107,104,117,100",
+                        "endOffsets": "148,250,350,450,558,663,781,882"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,116",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3496,3594,3696,3796,3896,4004,4109,9975",
+                        "endColumns": "97,101,99,99,107,104,117,100",
+                        "endOffsets": "3589,3691,3791,3891,3999,4104,4222,10071"
+                    }
+                },
                 {
                     "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\8e4ce2be0c51bd80c5b9d78bcbc81f63\\transformed\\appcompat-1.6.1\\res\\values-de\\values-de.xml",
                     "from": {
@@ -18,23 +35,6 @@
                         "startOffsets": "333,438,536,648,734,840,955,1033,1108,1200,1294,1390,1491,1598,1698,1802,1900,1998,2095,2177,2288,2390,2488,2595,2698,2802,2958,9657",
                         "endColumns": "104,97,111,85,105,114,77,74,91,93,95,100,106,99,103,97,97,96,81,110,101,97,106,102,103,155,101,81",
                         "endOffsets": "433,531,643,729,835,950,1028,1103,1195,1289,1385,1486,1593,1693,1797,1895,1993,2090,2172,2283,2385,2483,2590,2693,2797,2953,3055,9734"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\614837764ff1eaddb81bbdd40d14910e\\transformed\\core-1.13.1\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,355,455,563,668,786",
-                        "endColumns": "97,101,99,99,107,104,117,100",
-                        "endOffsets": "148,250,350,450,558,663,781,882"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,116",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3496,3594,3696,3796,3896,4004,4109,9975",
-                        "endColumns": "97,101,99,99,107,104,117,100",
-                        "endOffsets": "3589,3691,3791,3891,3999,4104,4222,10071"
                     }
                 },
                 {

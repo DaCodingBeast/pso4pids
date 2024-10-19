@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-30:/values-ms/values-ms.xml",
+            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-29:/values-ms/values-ms.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\614837764ff1eaddb81bbdd40d14910e\\transformed\\core-1.13.1\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,150,252,349,459,565,683,798",
-                        "endColumns": "94,101,96,109,105,117,114,100",
-                        "endOffsets": "145,247,344,454,560,678,793,894"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,116",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3449,3544,3646,3743,3853,3959,4077,9829",
-                        "endColumns": "94,101,96,109,105,117,114,100",
-                        "endOffsets": "3539,3641,3738,3848,3954,4072,4187,9925"
-                    }
-                },
                 {
                     "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\5ba4f781bc53807f963cd7978ca3637a\\transformed\\material-1.12.0\\res\\values-ms\\values-ms.xml",
                     "from": {
@@ -54,6 +37,23 @@
                         "startOffsets": "329,440,545,653,740,844,955,1034,1112,1203,1296,1391,1485,1583,1676,1771,1865,1956,2047,2127,2239,2347,2444,2553,2657,2764,2923,9508",
                         "endColumns": "110,104,107,86,103,110,78,77,90,92,94,93,97,92,94,93,90,90,79,111,107,96,108,103,106,158,100,80",
                         "endOffsets": "435,540,648,735,839,950,1029,1107,1198,1291,1386,1480,1578,1671,1766,1860,1951,2042,2122,2234,2342,2439,2548,2652,2759,2918,3019,9584"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\c6fd7364d11c563cc2d509f6d23ee7ff\\transformed\\core-1.13.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,349,459,565,683,798",
+                        "endColumns": "94,101,96,109,105,117,114,100",
+                        "endOffsets": "145,247,344,454,560,678,793,894"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,116",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3449,3544,3646,3743,3853,3959,4077,9829",
+                        "endColumns": "94,101,96,109,105,117,114,100",
+                        "endOffsets": "3539,3641,3738,3848,3954,4072,4187,9925"
                     }
                 }
             ]

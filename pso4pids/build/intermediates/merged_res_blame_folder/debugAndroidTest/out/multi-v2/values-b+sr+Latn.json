@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-30:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.github.DaCodingBeast.pso4arms.test.pso4pids-mergeDebugAndroidTestResources-29:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\c6fd7364d11c563cc2d509f6d23ee7ff\\transformed\\core-1.13.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,456,560,665,781",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "148,250,347,451,555,660,776,877"
+                    },
+                    "to": {
+                        "startLines": "39,40,41,42,43,44,45,117",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3541,3639,3741,3838,3942,4046,4151,9963",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "3634,3736,3833,3937,4041,4146,4262,10059"
+                    }
+                },
                 {
                     "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\8e4ce2be0c51bd80c5b9d78bcbc81f63\\transformed\\appcompat-1.6.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
@@ -18,23 +35,6 @@
                         "startOffsets": "374,481,582,688,774,878,1000,1085,1167,1258,1351,1446,1540,1640,1733,1828,1933,2024,2115,2201,2306,2412,2515,2622,2731,2838,3008,9640",
                         "endColumns": "106,100,105,85,103,121,84,81,90,92,94,93,99,92,94,104,90,90,85,104,105,102,106,108,106,169,96,86",
                         "endOffsets": "476,577,683,769,873,995,1080,1162,1253,1346,1441,1535,1635,1728,1823,1928,2019,2110,2196,2301,2407,2510,2617,2726,2833,3003,3100,9722"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aryab\\.gradle\\caches\\transforms-4\\614837764ff1eaddb81bbdd40d14910e\\transformed\\core-1.13.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,352,456,560,665,781",
-                        "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "148,250,347,451,555,660,776,877"
-                    },
-                    "to": {
-                        "startLines": "39,40,41,42,43,44,45,117",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3541,3639,3741,3838,3942,4046,4151,9963",
-                        "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "3634,3736,3833,3937,4041,4146,4262,10059"
                     }
                 },
                 {
