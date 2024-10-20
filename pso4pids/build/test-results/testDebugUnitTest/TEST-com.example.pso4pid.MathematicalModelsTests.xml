@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pso4pid.MathematicalModelsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-20T21:04:32" hostname="ARYA" time="0.015">
+  <properties/>
+  <testcase name="gravitationalModelBasedOn_Angle" classname="com.example.pso4pid.MathematicalModelsTests" time="0.014"/>
+  <testcase name="mathModelRestrictedDomain" classname="com.example.pso4pid.MathematicalModelsTests" time="0.001"/>
+  <testcase name="gravityModel_setInputAndOutput" classname="com.example.pso4pid.MathematicalModelsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
