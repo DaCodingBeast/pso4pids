@@ -1,9 +1,9 @@
 package com.example.pso4pid
 
-import ArmSpecific.FitnessFunction
-import ArmSpecific.pso4Arms
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.FitnessFunction
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.pso4Arms
 import CommonUtilities.AngleRange
-import PSO_Algorithm.Particle
+import com.DaCodingBeast.pso4pidfs.PSO_Algorithm.Particle
 import org.firstinspires.ftc.teamcode.PSO.Arm.Constants
 import org.junit.Test
 import kotlin.math.PI

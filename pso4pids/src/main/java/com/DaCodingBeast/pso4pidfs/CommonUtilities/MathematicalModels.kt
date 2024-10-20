@@ -1,8 +1,8 @@
-package CommonUtilities
+package com.DaCodingBeast.pso4pidfs.CommonUtilities
 
 import com.DaCodingBeast.pso4pidfs.ArmSpecific.GravityModelConstants
-import ArmSpecific.Hardware
-import ArmSpecific.pso4Arms.Constants.Constants
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.Hardware
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.pso4Arms.Constants.Constants
 import kotlin.math.PI
 import kotlin.math.pow
 
@@ -13,10 +13,9 @@ object Models {
     /**
      * Find the motors torque
      * @param power The power applied to the Motor, derived from the PIDF Controller
-     * @see PIDFcontroller
      */
     fun calculateTmotor(power: Double): Double {
-        require(power in -1.0..1.0)
+//        require(power in -1.0..1.0) Obviously works
 
         val maxTorque = Constants.motor.stallTorque
         val actualRPM = Constants.RPM
@@ -33,7 +32,7 @@ object Models {
      * @param angle Absolute value of Systems current angle
      */
     fun gravityTorque(angle: Double): Double {
-        require(angle in 0.0 ..PI)
+        require(angle in 0.0 ..PI)// obviously Works
         //Its a parabola created by Desmos based on given input
         return (Constants.gravityConstants.a * (angle - Constants.gravityConstants.b).pow(
             2
@@ -48,7 +47,7 @@ object Models {
      */
     @JvmStatic
     fun calculateTmotor(power: Double, motor: Hardware.Motor, actualRPM: Double): Double {
-        require(power in -1.0..1.0)
+        require(power in -1.0..1.0) //obviously works
         //friction influenced max power
         val friction = actualRPM / motor.rpm
 

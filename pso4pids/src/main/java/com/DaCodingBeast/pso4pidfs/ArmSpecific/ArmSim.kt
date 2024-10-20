@@ -1,10 +1,10 @@
-package ArmSpecific
+package com.DaCodingBeast.pso4pidfs.ArmSpecific
 
-import ArmSpecific.pso4Arms.Constants.Constants
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.pso4Arms.Constants.Constants
 import CommonUtilities.AngleRange
-import CommonUtilities.Models
-import CommonUtilities.PIDFParams
-import CommonUtilities.PIDFcontroller
+import com.DaCodingBeast.pso4pidfs.CommonUtilities.Models
+import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFParams
+import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFcontroller
 import kotlin.math.abs
 
 /**
@@ -41,7 +41,7 @@ class ArmSim(
          */
 
         //todo no way - possibly gravity test to serious? NOPE
-        Ttotal = if(angleRange.start >0 )Models.calculateTmotor(controlEffort) - Models.gravityTorque(abs(angleRange.start))
+        Ttotal = if(angleRange.start >0 ) Models.calculateTmotor(controlEffort) - Models.gravityTorque(abs(angleRange.start))
         else Models.calculateTmotor(controlEffort) + Models.gravityTorque(abs(angleRange.start))
 
 

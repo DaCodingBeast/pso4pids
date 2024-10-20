@@ -1,9 +1,12 @@
-package ArmSpecific
+package com.DaCodingBeast.pso4pidfs.ArmSpecific
 
 import CommonUtilities.AngleRange
-import PSO_Algorithm.PSO
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.SystemConstants
+import com.DaCodingBeast.pso4pidfs.PSO_Algorithm.PSO
+import android.util.Log
 
+
+
+const val error = "ERROR_IN_CONSTANTS"
 /**
  * @The Class used to run the PSO simulations and return the PID Constants
  * @param systemConstants Provide the Simulations Constants
@@ -36,12 +39,10 @@ class pso4Arms(
                         obstacle,
                         angle
                     )
-                ) { println("Your target angle range $angle is inside of your obstacle range $obstacle") }
+                ) { Log.d(error,"Your target angle range $angle is inside of your obstacle range $obstacle") }
             }
         }
     }
-
-    //todo note that single pidf constant not starting at a stationary state will not work
 
     /**
      *Prints PIDF Constants for each provided Angle Range

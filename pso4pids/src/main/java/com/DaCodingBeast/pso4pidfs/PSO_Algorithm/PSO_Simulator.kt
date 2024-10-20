@@ -1,11 +1,8 @@
-package PSO_Algorithm
+package com.DaCodingBeast.pso4pidfs.PSO_Algorithm
 
-import ArmSpecific.FitnessFunction
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.FitnessFunction
 import CommonUtilities.AngleRange
-import android.health.connect.datatypes.units.Velocity
-import kotlin.random.Random
 import kotlin.random.Random.Default.nextDouble
-import kotlin.math.abs
 
 
 /**

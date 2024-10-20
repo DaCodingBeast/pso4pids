@@ -3,7 +3,7 @@ package org.firstinspires.ftc.teamcode.PSO.Arm
 import CommonUtilities.AngleRange
 import com.DaCodingBeast.pso4pidfs.ArmSpecific.GravityModelConstants
 import com.DaCodingBeast.pso4pidfs.ArmSpecific.SystemConstants
-import ArmSpecific.Hardware
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.Hardware
 import org.firstinspires.ftc.teamcode.PSO.Arm.Constants.GravityOpMode.gravityConstants
 import org.junit.Test
 import kotlin.random.Random

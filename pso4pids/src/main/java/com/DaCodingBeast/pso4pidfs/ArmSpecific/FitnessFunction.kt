@@ -1,9 +1,8 @@
-package ArmSpecific
+package com.DaCodingBeast.pso4pidfs.ArmSpecific
 
 import CommonUtilities.AngleRange
-import CommonUtilities.PIDFParams
-import CommonUtilities.PIDFcontroller
-import PSO_Algorithm.Particle
+import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFParams
+import com.DaCodingBeast.pso4pidfs.PSO_Algorithm.Particle
 import kotlin.math.abs
 import kotlin.math.pow
 

@@ -1,4 +1,4 @@
-package ArmSpecific
+package com.DaCodingBeast.pso4pidfs.ArmSpecific
 
 /**
  * A collection of Motor Brands and characteristics

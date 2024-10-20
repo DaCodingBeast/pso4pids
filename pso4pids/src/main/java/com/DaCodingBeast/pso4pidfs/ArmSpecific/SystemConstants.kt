@@ -1,8 +1,5 @@
 package com.DaCodingBeast.pso4pidfs.ArmSpecific
 
-import ArmSpecific.Hardware
-import ArmSpecific.pso4Arms
-
 /**
  * The Constants needed to Simulate the Arm Mechanism
  * @param RPM The Motors Actual RPM, accounting for the affect of friction
