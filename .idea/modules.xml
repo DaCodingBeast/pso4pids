@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pso4pids.iml" filepath="$PROJECT_DIR$/.idea/pso4pids.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4pids.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4arms/pso4pids.pso4pids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.unitTest.iml" />

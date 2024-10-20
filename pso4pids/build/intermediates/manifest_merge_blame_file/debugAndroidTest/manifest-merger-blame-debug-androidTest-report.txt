@@ -3,24 +3,24 @@
 3    package="com.github.DaCodingBeast.pso4arms.test" >
 4
 5    <uses-sdk
-5-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:5:5-74
+5-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:5:15-41
+6-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:5:15-41
 7        android:targetSdkVersion="24" />
-7-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:5:42-71
+7-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:11:5-15:88
+9-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:11:5-15:88
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:11:22-76
+10-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:14:22-52
+11-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:13:22-53
+12-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:13:22-53
 13        android:label="Tests for com.github.DaCodingBeast.pso4arms.test"
-13-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:15:22-86
+13-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:15:22-86
 14        android:targetPackage="com.github.DaCodingBeast.pso4arms.test" />
-14-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:12:22-84
+14-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:12:22-84
 15
 16    <permission
 16-->[androidx.core:core:1.13.0] C:\Users\aryab\.gradle\caches\transforms-4\c6fd7364d11c563cc2d509f6d23ee7ff\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
@@ -34,7 +34,7 @@
 20-->[androidx.core:core:1.13.0] C:\Users\aryab\.gradle\caches\transforms-4\c6fd7364d11c563cc2d509f6d23ee7ff\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:7:5-9:19
+22-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:7:5-9:19
 23        android:allowBackup="true"
 23-->[:pso4pids] C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -56,8 +56,8 @@
 33        android:theme="@style/Theme.Pso4pidfs" >
 33-->[:pso4pids] C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-47
 34        <uses-library android:name="android.test.runner" />
-34-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:8:9-60
-34-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4975509130496976758.xml:8:23-57
+34-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:8:9-60
+34-->C:\Users\aryab\Desktop\AB\AndroidStudioProjects\pso4pids\pso4pids\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1450258508969523325.xml:8:23-57
 35
 36        <provider
 36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aryab\.gradle\caches\transforms-4\541c38f8249602e141503665c011a7f2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
