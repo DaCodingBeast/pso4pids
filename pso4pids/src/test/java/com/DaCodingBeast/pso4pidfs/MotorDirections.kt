@@ -46,7 +46,7 @@ class MotorDirections {
         DirectionLists
             .asSequence()
             .flatMap { it.asSequence() }
-            .forEach { assert(CorrectDirection != it) }
+            .forEach { assert(CorrectDirection == it) }
     }
 
 
