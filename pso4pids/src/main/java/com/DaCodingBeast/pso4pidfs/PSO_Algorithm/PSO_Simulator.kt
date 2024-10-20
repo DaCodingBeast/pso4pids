@@ -19,10 +19,12 @@ import kotlin.random.Random.Default.nextDouble
  */
 //decrease previous when running a ton of swarm
 
-//todo have a power paramter, that saves previous power or is null
+class Ranges(val start: Double, val stop: Double)
+
+
 class PSO(
     swarmSize: Int,
-    private val randomInRanges: ArrayList<Pair<Double, Double>>,
+    private val randomInRanges: ArrayList<Ranges>,
     time: Double,
     angleRange: AngleRange,
     obstacleAngleRange: AngleRange? = null,
@@ -35,7 +37,7 @@ class PSO(
 
     //initialize
     private var gBestResult = Double.MAX_VALUE
-    var gBestParams = Vector(randomInRanges.map { nextDouble(it.first, it.second) }.toDoubleArray())
+    var gBestParams = Vector(randomInRanges.map { nextDouble(it.start, it.stop) }.toDoubleArray())
 
     /**
      * The fitness function you are using
@@ -55,6 +57,8 @@ class PSO(
                     particle.pBestParam = particle.position
 //                    if(b>0) println(" fdfdf${particle.bestResult} ${fitness.first}")
                 }
+
+                //todo change from .first etc to actual names
                 //GBEST
                 if (gBestResult > particle.bestResult) {
                     gBestResult = particle.bestResult

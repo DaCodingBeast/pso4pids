@@ -8,13 +8,13 @@ import kotlin.random.Random
  * @param ranges The ranges that limit the PIDF Coefficients
  * @param multiplePids Boolean that creates 12 PIDF Coefficients for 3 Controllers vs 4 for 1
  */
-class Particle(private val ranges: ArrayList<Pair<Double,Double>>, private val multiplePids: Boolean) {
+class Particle(private val ranges: ArrayList<Ranges>, private val multiplePids: Boolean) {
     /**
      * The initialized random position of the Particle.
      * Initialized values are in between [ranges]
      * @see Vector
      */
-    var position = Vector(ranges.map{ Random.nextDouble(it.first, it.second) }.toDoubleArray())
+    var position = Vector(ranges.map{ Random.nextDouble(it.start, it.stop) }.toDoubleArray())
     var velocity: Vector = if(multiplePids) Vector(DoubleArray(12))
     else Vector(DoubleArray(4))
     //initialize at start

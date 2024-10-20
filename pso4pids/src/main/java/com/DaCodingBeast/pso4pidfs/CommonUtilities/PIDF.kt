@@ -37,6 +37,8 @@ class PIDFcontroller(
     private val armAngle =
         if (motor != null && angleOffset != null) ArmAngle(motor, angleOffset) else null
 
+    class Result(val motorPower: Double, val error: Double)
+
     /**
      * @param angleRange Used to determine the feedforward term to fight gravity
      * @param error Error determined by the motor direction
@@ -48,7 +50,7 @@ class PIDFcontroller(
         angleRange: AngleRange,
         badAngleRange: AngleRange?,
         dt: Double = Dt
-    ): Pair<Double, Double> {
+    ): Result {
 
         val direction = AngleRange.findMotorDirection(angleRange, badAngleRange)
         val error = AngleRange.findPIDFAngleError(direction, angleRange)
@@ -72,7 +74,7 @@ class PIDFcontroller(
                 -1.0,
                 1.0
             )
-        return Pair(controlEffort, error)
+        return Result(controlEffort, error)
     }
 
     /**
@@ -89,7 +91,7 @@ class PIDFcontroller(
      */
     fun calculateMotorPower(encoder: Int, looptime: Double): Double {
         val angleRange = AngleRange(armAngle!!.findAngle(encoder), target!!.target)
-        return calculate(angleRange, obstacleRange, looptime).first
+        return calculate(angleRange, obstacleRange, looptime).motorPower
     }
 
     /**
