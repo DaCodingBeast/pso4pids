@@ -2,6 +2,7 @@ package ArmSpecific
 
 import CommonUtilities.AngleRange
 import PSO_Algorithm.PSO
+import PSO_Algorithm.Ranges
 import android.util.Log
 
 
@@ -55,10 +56,10 @@ class pso4Arms(
             val pso = PSO(
                 100000,
                 arrayListOf(
-                    Pair(0.0, accuracy),
-                    Pair(0.0, accuracy/3.5),
-                    Pair(0.0, accuracy),
-                    Pair(0.0, accuracy)
+                    Ranges(0.0, accuracy),
+                    Ranges(0.0, accuracy/3.5),
+                    Ranges(0.0, accuracy),
+                    Ranges(0.0, accuracy)
                 ),
                 time,
                 angleRanges[0], obstacle
@@ -82,10 +83,10 @@ class pso4Arms(
                 val pso = PSO(
                     5000,
                     arrayListOf(
-                        Pair(0.0, accuracy),
-                        Pair(0.0, accuracy/2),
-                        Pair(0.0, accuracy),
-                        Pair(0.0, accuracy)
+                        Ranges(0.0, accuracy),
+                        Ranges(0.0, accuracy/2),
+                        Ranges(0.0, accuracy),
+                        Ranges(0.0, accuracy)
                     ),
                     time,
                     angleRanges[i],

@@ -33,7 +33,7 @@ class ArmSim(
      */
     fun updateSim(): Triple<AngleRange, Double, Double> {
         val calculate = shoulder.calculate(angleRange, badAngleRange)
-        val controlEffort = calculate.first
+        val controlEffort = calculate.motorPower
 
         /**
          * @see Models.calculateTmotor
@@ -52,7 +52,7 @@ class ArmSim(
             angleRange.target
         )
 //        println("d: $direction  c: $controlEffort  v: $angularVelocity a: ${angleRange.start}")
-        return Triple(angleRange, controlEffort, calculate.second)
+        return Triple(angleRange, controlEffort, calculate.error)
     }
 
 
