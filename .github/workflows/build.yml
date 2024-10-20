@@ -25,4 +25,4 @@ jobs:
 
       - name: Build with Gradle
         working-directory: ./pso4pid
-        run: ../gradlew build
+        run: ./gradlew build
