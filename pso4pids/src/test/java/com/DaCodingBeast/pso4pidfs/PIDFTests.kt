@@ -59,7 +59,7 @@ class PIDFTests {
             val pidfController = PIDFcontroller(PIDFParams(randomNumbers[1],randomNumbers[2],randomNumbers[3],randomNumbers[4]))
 
             val angle = AngleRange(Random.nextDouble(-PI,PI),Random.nextDouble(-PI,PI))
-            val motorPower = pidfController.calculate(angle, null).first
+            val motorPower = pidfController.calculate(angle, null).motorPower
 
             assert(motorPower in -1.0 .. 1.0)
         }

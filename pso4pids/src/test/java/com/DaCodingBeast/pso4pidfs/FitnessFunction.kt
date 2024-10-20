@@ -4,6 +4,7 @@ import ArmSpecific.FitnessFunction
 import ArmSpecific.pso4Arms
 import CommonUtilities.AngleRange
 import PSO_Algorithm.Particle
+import PSO_Algorithm.Ranges
 import org.firstinspires.ftc.teamcode.PSO.Arm.Constants
 import org.junit.Test
 import kotlin.math.PI
@@ -13,7 +14,7 @@ class FitnessFunction {
 
     @Test
     fun itaeReturnValue(){
-        val range = Pair(0.0, Random.nextDouble(0.0,1.0))
+        val range = Ranges(0.0, Random.nextDouble(0.0,1.0))
         val ranges = arrayListOf(range,range,range,range)
         val particle = Particle(ranges, false)
 
