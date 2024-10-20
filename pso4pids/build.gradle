@@ -45,7 +45,7 @@ afterEvaluate{
             from components.findByName(variant.name)
             groupId = 'com.DaCodingBeast'
             artifactId = 'pso4pids'
-            version = '1.1.7'
+            version = '1.1.8'
             //'com.DaCodingBeast:pso4pids:1.1.1'
         }
     }
