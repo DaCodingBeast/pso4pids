@@ -1,4 +1,4 @@
-package com.DaCodingBeast.pso4pidfs.ArmSpecific
+package ArmSpecific
 
 /**
  * The Constants needed to Simulate the Arm Mechanism
@@ -16,7 +16,7 @@ data class SystemConstants(
     val Inertia: Double
 ) {
     init {
-        pso4Arms.Constants = this
+        pso4Arms.Constants.Constants = this
     }
 }
 

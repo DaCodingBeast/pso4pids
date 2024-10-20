@@ -1,9 +1,9 @@
 package com.example.pso4pid
 
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.Direction
+import ArmSpecific.Direction
 import CommonUtilities.AngleRange
-import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFParams
-import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFcontroller
+import CommonUtilities.PIDFParams
+import CommonUtilities.PIDFcontroller
 import org.junit.Test
 import kotlin.math.PI
 import kotlin.random.Random

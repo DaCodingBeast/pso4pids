@@ -1,7 +1,7 @@
-package com.DaCodingBeast.pso4pidfs.ArmSpecific
+package ArmSpecific
 
 import CommonUtilities.AngleRange
-import com.DaCodingBeast.pso4pidfs.PSO_Algorithm.PSO
+import PSO_Algorithm.PSO
 import android.util.Log
 
 

@@ -1,10 +1,10 @@
-package com.DaCodingBeast.pso4pidfs.ArmSpecific
+package ArmSpecific
 
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.pso4Arms.Constants.Constants
+import ArmSpecific.pso4Arms.Constants.Constants
 import CommonUtilities.AngleRange
-import com.DaCodingBeast.pso4pidfs.CommonUtilities.Models
-import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFParams
-import com.DaCodingBeast.pso4pidfs.CommonUtilities.PIDFcontroller
+import CommonUtilities.Models
+import CommonUtilities.PIDFParams
+import CommonUtilities.PIDFcontroller
 import kotlin.math.abs
 
 /**

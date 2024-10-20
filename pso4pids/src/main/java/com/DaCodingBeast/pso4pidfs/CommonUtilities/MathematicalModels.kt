@@ -1,9 +1,9 @@
-package com.DaCodingBeast.pso4pidfs.CommonUtilities
+package CommonUtilities
 
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.GravityModelConstants
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.Hardware
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.pso4Arms.Constants.Constants
+import ArmSpecific.Hardware
+import ArmSpecific.pso4Arms.Constants.Constants
 import kotlin.math.PI
+import kotlin.math.abs
 import kotlin.math.pow
 
 /**
@@ -32,9 +32,12 @@ object Models {
      * @param angle Absolute value of Systems current angle
      */
     fun gravityTorque(angle: Double): Double {
-        require(angle in 0.0 ..PI)// obviously Works
+        require(angle in -PI ..PI)// obviously Works
+
+        val angleAbs = abs(angle)
+
         //Its a parabola created by Desmos based on given input
-        return (Constants.gravityConstants.a * (angle - Constants.gravityConstants.b).pow(
+        return (Constants.gravityConstants.a * (angleAbs - Constants.gravityConstants.b).pow(
             2
         ) + Constants.gravityConstants.k)
     }

@@ -1,6 +1,6 @@
-package com.DaCodingBeast.pso4pidfs.PSO_Algorithm
+package PSO_Algorithm
 
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.FitnessFunction
+import ArmSpecific.FitnessFunction
 import CommonUtilities.AngleRange
 import kotlin.random.Random.Default.nextDouble
 

@@ -1,6 +1,6 @@
 package CommonUtilities
 
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.Direction
+import ArmSpecific.Direction
 import android.util.Log
 import kotlin.math.PI
 
@@ -18,7 +18,7 @@ data class AngleRange(var start: Double, var target: Double) {
          * @param theta Angle Error being wrapped, so that the shortest route is discovered
          */
         fun wrap(theta: Double): Double {
-            require(theta in -2 * PI..2 * PI) { Log.d(com.DaCodingBeast.pso4pidfs.ArmSpecific.error, "You created an Angle greater than 360 degrees")}
+            require(theta in -2 * PI..2 * PI) { Log.d(ArmSpecific.error, "You created an Angle greater than 360 degrees")}
             var angle = theta
             while (angle > PI) angle -= PI * 2
             while (angle < -PI) angle += PI * 2
@@ -103,8 +103,8 @@ data class AngleRange(var start: Double, var target: Double) {
         /**
          * Requirements that the Angle Range must be within -PI to PI
          */
-        require(start in -PI..PI) { Log.d(com.DaCodingBeast.pso4pidfs.ArmSpecific.error,"Angle Ranges should be in Radians") }
-        require(target in -PI..PI) { Log.d(com.DaCodingBeast.pso4pidfs.ArmSpecific.error,"Angle Ranges should be in Radians") }
+        require(start in -PI..PI) { Log.d(ArmSpecific.error,"Angle Ranges should be in Radians") }
+        require(target in -PI..PI) { Log.d(ArmSpecific.error,"Angle Ranges should be in Radians") }
 
         start = wrap(start)
         target = wrap(target)

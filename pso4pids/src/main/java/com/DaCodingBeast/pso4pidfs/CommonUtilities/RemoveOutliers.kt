@@ -1,4 +1,4 @@
-package com.DaCodingBeast.pso4pidfs.CommonUtilities
+package CommonUtilities
 
 object RemoveOutliers {
     @JvmStatic

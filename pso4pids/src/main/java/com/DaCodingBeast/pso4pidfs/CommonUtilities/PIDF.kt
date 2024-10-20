@@ -1,9 +1,9 @@
-package com.DaCodingBeast.pso4pidfs.CommonUtilities
+package CommonUtilities
 
 import ArmSpecific.ArmAngle
+import ArmSpecific.Dt
+import ArmSpecific.Hardware
 import CommonUtilities.AngleRange
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.Dt
-import com.DaCodingBeast.pso4pidfs.ArmSpecific.Hardware
 import android.util.Log
 import kotlin.math.abs
 import kotlin.math.max
@@ -79,7 +79,7 @@ class PIDFcontroller(
      * This is for using the PIDF params in an opmode
      */
     fun resetConstantsAndTarget(params: PIDFParams, target: AngleRange) {
-        require(motor != null) { Log.d(com.DaCodingBeast.pso4pidfs.ArmSpecific.error,"You did not instantiate the PIDF controller with the your motor type") }
+        require(motor != null) { Log.d(ArmSpecific.error,"You did not instantiate the PIDF controller with the your motor type") }
         this.params = params
         this.target = target
     }
