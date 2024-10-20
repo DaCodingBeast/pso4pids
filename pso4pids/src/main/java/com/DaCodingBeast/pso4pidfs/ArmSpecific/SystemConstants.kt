@@ -1,8 +1,7 @@
-package ArmSpecific
+package com.DaCodingBeast.pso4pidfs.ArmSpecific
 
-import CommonUtilities.Models
-import android.util.Log
-import kotlin.math.abs
+import ArmSpecific.Hardware
+import ArmSpecific.pso4Arms
 
 /**
  * The Constants needed to Simulate the Arm Mechanism
@@ -20,7 +19,7 @@ data class SystemConstants(
     val Inertia: Double
 ) {
     init {
-        pso4Arms.Constants.Constants = this
+        pso4Arms.Constants = this
     }
 }
 

@@ -1,8 +1,8 @@
 package org.firstinspires.ftc.teamcode.PSO.Arm
 
 import CommonUtilities.AngleRange
-import ArmSpecific.GravityModelConstants
-import ArmSpecific.SystemConstants
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.GravityModelConstants
+import com.DaCodingBeast.pso4pidfs.ArmSpecific.SystemConstants
 import ArmSpecific.Hardware
 import org.firstinspires.ftc.teamcode.PSO.Arm.Constants.GravityOpMode.gravityConstants
 import org.junit.Test

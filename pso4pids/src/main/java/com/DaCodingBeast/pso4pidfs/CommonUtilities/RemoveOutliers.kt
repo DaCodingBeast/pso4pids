@@ -3,6 +3,12 @@ package CommonUtilities
 object RemoveOutliers {
     @JvmStatic
     fun removeOutliers(data: ArrayList<Double>): ArrayList<Double> {
+
+        if (data.isEmpty()) {
+            //todo log
+            return ArrayList()
+        }
+
         // Sort the data
         val sortedData = data.sorted()
 

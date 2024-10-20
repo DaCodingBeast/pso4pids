@@ -82,6 +82,9 @@ sealed class Hardware {
                 encoderTicksPerRotation *= (1 / customGearRatio)
                 stallTorque *= (1 / customGearRatio)
             }
+            else {
+            //todo log
+            }
         }
     }
 }
