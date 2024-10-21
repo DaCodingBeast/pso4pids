@@ -1,6 +1,6 @@
 package ArmSpecific
 
-import ArmSpecific.pso4Arms.Constants.Constants
+import ArmSpecific.pso4Arms.System.SystemConstants
 import CommonUtilities.AngleRange
 import CommonUtilities.Models
 import CommonUtilities.PIDFParams
@@ -49,7 +49,7 @@ class ArmSim(
         else Models.calculateTmotor(controlEffort) + Models.gravityTorque(abs(angleRange.start))
 
 
-        angularAcceleration = Ttotal / Constants.Inertia
+        angularAcceleration = Ttotal / SystemConstants.Inertia
         angularVelocity += angularAcceleration * Dt
         angleRange = AngleRange(
             AngleRange.wrap(angleRange.start + angularVelocity * Dt),

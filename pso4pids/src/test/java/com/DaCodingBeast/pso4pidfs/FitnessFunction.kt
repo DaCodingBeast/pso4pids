@@ -19,8 +19,8 @@ class FitnessFunction {
         val particle = Particle(ranges, false)
 
         val fitnessFunction = FitnessFunction(2.0, AngleRange(0.0,PI/2))
-        pso4Arms.Constants.Constants = Constants.constant
+        pso4Arms.System.SystemConstants = Constants.constant
         val result = fitnessFunction.computeParticle(particle)
-        println(result.first)
+        println(result.itae)
     }
 }

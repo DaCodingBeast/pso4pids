@@ -16,7 +16,7 @@ data class SystemConstants(
     val Inertia: Double
 ) {
     init {
-        pso4Arms.Constants.Constants = this
+        pso4Arms.System.SystemConstants = this
     }
 }
 

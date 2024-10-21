@@ -13,7 +13,7 @@ import kotlin.random.Random
 class MathematicalModelsTests {
 
     init {
-        pso4Arms.Constants.Constants = Constants.constant
+        pso4Arms.System.SystemConstants = Constants.constant
     }
 
     /**
@@ -44,7 +44,7 @@ class MathematicalModelsTests {
         val inputs = List(100){Random.nextDouble(-PI,PI)}
 
         for (input in inputs){
-            val constants = pso4Arms.Constants.Constants.gravityConstants
+            val constants = pso4Arms.System.SystemConstants.gravityConstants
             val expectedResult = constants.a * (abs(input) - constants.b).pow(2) + constants.k
             val actualResult = Models.gravityTorque(input)
             assertEquals(expectedResult, actualResult)

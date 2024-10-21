@@ -24,14 +24,14 @@ class pso4Arms(
     /**
      * The Arm mechanism's characteristics
      */
-    companion object Constants {
-        lateinit var Constants: SystemConstants
+    companion object System {
+        lateinit var SystemConstants: SystemConstants
     }
 
     val OneTest = angleRanges.size == 1
 
     init {
-        Constants.Constants = systemConstants
+        System.SystemConstants = systemConstants
         if (obstacle != null) {
             angleRanges.forEach { angle ->
                 //inverse because we are checking if the angle is in the obstacle range

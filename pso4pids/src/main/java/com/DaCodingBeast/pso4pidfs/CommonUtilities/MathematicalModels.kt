@@ -1,7 +1,7 @@
 package CommonUtilities
 
 import ArmSpecific.Hardware
-import ArmSpecific.pso4Arms.Constants.Constants
+import ArmSpecific.pso4Arms.System.SystemConstants
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.pow
@@ -17,9 +17,9 @@ object Models {
     fun calculateTmotor(power: Double): Double {
 //        require(power in -1.0..1.0) Obviously works
 
-        val maxTorque = Constants.motor.stallTorque
-        val actualRPM = Constants.RPM
-        val theoreticalRPM = Constants.motor.rpm
+        val maxTorque = SystemConstants.motor.stallTorque
+        val actualRPM = SystemConstants.RPM
+        val theoreticalRPM = SystemConstants.motor.rpm
         //friction influenced max power
         val friction = actualRPM / theoreticalRPM
 
@@ -37,9 +37,9 @@ object Models {
         val angleAbs = abs(angle)
 
         //Its a parabola created by Desmos based on given input
-        return (Constants.gravityConstants.a * (angleAbs - Constants.gravityConstants.b).pow(
+        return (SystemConstants.gravityConstants.a * (angleAbs - SystemConstants.gravityConstants.b).pow(
             2
-        ) + Constants.gravityConstants.k)
+        ) + SystemConstants.gravityConstants.k)
     }
     /**
      * Finding the Motor Torque based on the Systems Constants.
