@@ -17,6 +17,9 @@ const val Dt = 0.01
  * @param angleRange The Target Angle
  * @param badAngleRange The Obstacles in the system
  */
+
+class FitnessFunctionData(val itae: Double,val history:ArrayList<ArmSimData>)
+
 class FitnessFunction(
     private val totalTime: Double,
     private val angleRange: AngleRange,
@@ -27,7 +30,8 @@ class FitnessFunction(
      * The Computation of the [param] to find the fitness score.
      * The lower the fitness score the better: This function minimizes the ITAE
      */
-    fun computeParticle(param: Particle): Pair<Double, ArrayList<Triple<Double, Double, Double>>> {
+
+    fun computeParticle(param: Particle): FitnessFunctionData {
         val (p, i, d, f) = param.position.particleParams
         /**
          * @see ArmSim
@@ -39,7 +43,7 @@ class FitnessFunction(
          */
 
         var itae = 0.0
-        val history = ArrayList<Triple<Double, Double, Double>>()
+        val history = ArrayList<ArmSimData>()
 
         val initialDirection = AngleRange.findMotorDirection(angleRange, badAngleRange)
 
@@ -47,8 +51,8 @@ class FitnessFunction(
         var time = Dt
         while (time <= totalTime) {
             val update = armSim.updateSim()
-            val error = update.third
-            history += Triple(update.first.start, update.second, error)
+            val error = update.error
+            history.add( ArmSimData(update.armAngle, update.motorPower, error))
 
 //            println("$error  ${update.first.start}")
 
@@ -71,15 +75,15 @@ class FitnessFunction(
          */
 //        itae += 1600 * abs(armSim.updateSim().third)
 
-        val error = abs(armSim.updateSim().third)
-        if(error>= Math.toRadians(3.0))  itae+= abs(armSim.updateSim().third) *1000
+        val error = abs(armSim.updateSim().error)
+        if(error>= Math.toRadians(3.0))  itae+= abs(armSim.updateSim().error) *1000
         /**
          * Final Velocity Accuracy - ITAE increases if velocity of arm is not relatively low once the time is up
          */
         if(armSim.angularVelocity>= 1.0) itae +=25 * abs( armSim.angularVelocity)
 
         // Return ITAE as the fitness score (lower is better)
-        return Pair(itae, history)
+        return FitnessFunctionData(itae, history)
     }
 
 }

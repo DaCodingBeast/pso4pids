@@ -17,6 +17,10 @@ enum class Direction {
 /**
  *The simulation that translates the effect of [PIDFcontroller] on the Arm Angle
  */
+
+class ArmSimData(val armAngle: AngleRange, val motorPower: Double, val error: Double)
+
+
 class ArmSim(
     private var angleRange: AngleRange,
     private val badAngleRange: AngleRange?,
@@ -31,7 +35,7 @@ class ArmSim(
      * This function calculates the sum of two integers.
      * @return Arms Angle, Error, and motor power
      */
-    fun updateSim(): Triple<AngleRange, Double, Double> {
+    fun updateSim(): ArmSimData {
         val calculate = shoulder.calculate(angleRange, badAngleRange)
         val controlEffort = calculate.motorPower
 
@@ -52,7 +56,7 @@ class ArmSim(
             angleRange.target
         )
 //        println("d: $direction  c: $controlEffort  v: $angularVelocity a: ${angleRange.start}")
-        return Triple(angleRange, controlEffort, calculate.error)
+        return ArmSimData(angleRange, controlEffort, calculate.error)
     }
 
 

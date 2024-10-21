@@ -50,10 +50,10 @@ class PSO(
         (0 until a).forEach { b ->
             for (particle in particles) {
                 val fitness = fitnessFunction.computeParticle(particle)
-                lastPower = fitness.second[2].second
+                lastPower = fitness.history[2].motorPower
                 //PBEST
-                if (particle.bestResult > fitness.first) {
-                    particle.bestResult = fitness.first
+                if (particle.bestResult > fitness.itae) {
+                    particle.bestResult = fitness.itae
                     particle.pBestParam = particle.position
 //                    if(b>0) println(" fdfdf${particle.bestResult} ${fitness.first}")
                 }
@@ -63,9 +63,9 @@ class PSO(
                 if (gBestResult > particle.bestResult) {
                     gBestResult = particle.bestResult
                     gBestParams = particle.pBestParam
-                    (0 until fitness.second.size).forEach { c ->
-                        println(" motor power: ${fitness.second[c].second}")
-                        println(" angle: ${Math.toDegrees(fitness.second[c].first)}")
+                    (0 until fitness.history.size).forEach { c ->
+                        println(" motor power: ${fitness.history[c].motorPower}")
+                        println(" angle: ${Math.toDegrees(fitness.history[c].armAngle.start)}")
 //                            println(" error: ${Math.toDegrees(fitness.second[c].third)}")
                     }
                 }
