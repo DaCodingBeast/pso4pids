@@ -18,7 +18,7 @@ data class AngleRange(var start: Double, var target: Double) {
          * @param theta Angle Error being wrapped, so that the shortest route is discovered
          */
         fun wrap(theta: Double): Double {
-            require(theta in -2 * PI..2 * PI) { Log.d(ArmSpecific.error, "You created an Angle greater than 360 degrees")}
+//            require(theta in -2 * PI..2 * PI) { Log.d(ArmSpecific.error, "You created an Angle greater than 360 degrees")}
             var angle = theta
             while (angle > PI) angle -= PI * 2
             while (angle < -PI) angle += PI * 2
