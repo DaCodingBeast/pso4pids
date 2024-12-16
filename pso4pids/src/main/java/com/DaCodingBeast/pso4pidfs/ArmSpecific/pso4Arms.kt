@@ -54,7 +54,7 @@ class pso4Arms(
          */
         if (OneTest) {
             val pso = PSO(
-                100000,
+                50000,
                 arrayListOf(
                     Ranges(0.0, accuracy),
                     Ranges(0.0, accuracy/3.5),

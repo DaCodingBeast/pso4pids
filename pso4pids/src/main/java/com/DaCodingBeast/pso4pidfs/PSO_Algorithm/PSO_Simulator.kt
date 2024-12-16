@@ -49,7 +49,16 @@ class PSO(
     fun update(a: Int): Double {
         (0 until a).forEach { b ->
             for (particle in particles) {
+                val holdData = particles.indexOf(particle) % (50000/1) ==0
+
                 val fitness = fitnessFunction.computeParticle(particle)
+
+                if(holdData) {(0 until fitness.history.size).forEach { c ->
+//                        println(" motor power: ${fitness.history[c].motorPower}")
+                   println("[\"$b\", ${Math.toDegrees(fitness.history[c].armAngle.start)}],")
+//                            println(" error: ${Math.toDegrees(fitness.second[c].third)}")
+                }}
+
                 lastPower = fitness.history[2].motorPower
                 //PBEST
                 if (particle.bestResult > fitness.itae) {
@@ -63,11 +72,7 @@ class PSO(
                 if (gBestResult > particle.bestResult) {
                     gBestResult = particle.bestResult
                     gBestParams = particle.pBestParam
-                    (0 until fitness.history.size).forEach { c ->
-                        println(" motor power: ${fitness.history[c].motorPower}")
-                        println(" angle: ${Math.toDegrees(fitness.history[c].armAngle.start)}")
-//                            println(" error: ${Math.toDegrees(fitness.second[c].third)}")
-                    }
+
                 }
 
                 var newVelocity = ((particle.velocity * prevVeloWeight)+
@@ -98,7 +103,6 @@ class PSO(
 //                println("i ${particle.position}")
 
             }
-            println("ran ${b + 1} times")
 
 
         }

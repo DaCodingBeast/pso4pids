@@ -80,7 +80,7 @@ class FitnessFunction(
         /**
          * Final Velocity Accuracy - ITAE increases if velocity of arm is not relatively low once the time is up
          */
-        if(armSim.angularVelocity>= 1.0) itae +=25 * abs( armSim.angularVelocity)
+        if(armSim.angularVelocity>= 1.0) itae +=20 * abs( armSim.angularVelocity)
 
         // Return ITAE as the fitness score (lower is better)
         return FitnessFunctionData(itae, history)

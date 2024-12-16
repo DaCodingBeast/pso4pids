@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pso4pids.iml" filepath="$PROJECT_DIR$/.idea/pso4pids.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pids.pso4pids.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pidsOLD.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pidsOLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pso4pids/pso4pidsOLD.pso4pids.unitTest.iml" />
     </modules>
   </component>
 </project>
